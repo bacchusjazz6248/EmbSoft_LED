@@ -1,33 +1,18 @@
-!SESSION 2020-01-21 10:05:44.896 -----------------------------------------------
+!SESSION 2020-01-29 02:13:16.400 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.8.0_65
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
 Command-line arguments:  -os win32 -ws win32 -arch x86
 
-!ENTRY org.eclipse.ui 4 4 2020-01-21 10:06:30.890
+!ENTRY org.eclipse.ui 4 4 2020-01-29 02:13:23.768
 !MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
 
-!ENTRY org.eclipse.ui 4 4 2020-01-21 10:06:30.900
+!ENTRY org.eclipse.ui 4 4 2020-01-29 02:13:23.780
 !MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
 
-!ENTRY org.eclipse.cdt.core 1 0 2020-01-21 10:08:37.986
-!MESSAGE Indexed 'CMSIS_CORE_LPC8xx' (1 sources, 9 headers) in 0.419 sec: 695 declarations; 1,045 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-29 02:15:13.994
+!MESSAGE Indexed 'CMSIS_CORE_LPC8xx' (1 sources, 9 headers) in 0.388 sec: 695 declarations; 1,045 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
 
-!ENTRY org.eclipse.cdt.core 1 0 2020-01-21 10:13:37.645
-!MESSAGE Indexed 'LEDBlink' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
-!SESSION 2020-01-28 09:06:41.108 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=1.8.0_65
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
-Command-line arguments:  -os win32 -ws win32 -arch x86
-
-!ENTRY org.eclipse.ui 4 4 2020-01-28 09:07:03.003
-!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
-
-!ENTRY org.eclipse.ui 4 4 2020-01-28 09:07:03.011
-!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
-
-!ENTRY org.eclipse.cdt.core 1 0 2020-01-28 10:18:14.950
-!MESSAGE Indexed 'LEDBlink2' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-29 02:16:48.988
+!MESSAGE Indexed 'LEDBlink' (1 sources, 0 headers) in 0.029 sec: 97 declarations; 105 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
