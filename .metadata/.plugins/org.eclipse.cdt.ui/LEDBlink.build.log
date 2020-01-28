@@ -1,0 +1,25 @@
+11:31:14 **** Incremental Build of configuration Debug for project LEDBlink ****
+make -r all 
+Building file: ../src/LEDBlink.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__USE_CMSIS=CMSIS_CORE_LPC8xx -D__LPC8XX__ -D__REDLIB__ -I"C:\Users\bacch\OneDrive\ESE\05\CMSIS_CORE_LPC8xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/LEDBlink.d" -MT"src/LEDBlink.o" -MT"src/LEDBlink.d" -o "src/LEDBlink.o" "../src/LEDBlink.c"
+Finished building: ../src/LEDBlink.c
+ 
+Building target: LEDBlink.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\bacch\OneDrive\ESE\05\CMSIS_CORE_LPC8xx\Debug" -Xlinker -Map="LEDBlink.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "LEDBlink_Debug.ld" -o "LEDBlink.axf"  ./src/LEDBlink.o ./src/cr_startup_lpc8xx.o ./src/swm.o   -lCMSIS_CORE_LPC8xx
+Memory region         Used Size  Region Size  %age Used
+         MFlash4:         712 B         4 KB     17.38%
+         RamLoc1:           4 B         1 KB      0.39%
+Finished building target: LEDBlink.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LEDBlink.axf" ; arm-none-eabi-objcopy -v -O ihex "LEDBlink.axf" "LEDBlink.hex"
+   text	   data	    bss	    dec	    hex	filename
+    712	      0	      4	    716	    2cc	LEDBlink.axf
+copy from `LEDBlink.axf' [elf32-littlearm] to `LEDBlink.hex' [ihex]
+ 
+
+11:31:15 Build Finished (took 1s.951ms)
+
