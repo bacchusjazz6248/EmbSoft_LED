@@ -1,0 +1,237 @@
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190131-2.6 (utf8.uptex) (TeX Live 2019/W32TeX) (preloaded format=uplatex 2019.11.27)  12 FEB 2020 03:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**19G463.tex
+(./19G463.tex
+pLaTeX2e <2019-10-01u02>+1 (based on LaTeX2e <2019-10-01> patch level 3)
+(c:/texlive/2019/texmf-dist/tex/uplatex/base/ujarticle.cls
+Document Class: ujarticle 2019/10/17 v1.8c-u00 Standard upLaTeX class
+\c@@paper=\count83
+(c:/texlive/2019/texmf-dist/tex/uplatex/base/ujsize10.clo
+File: ujsize10.clo 2019/10/17 v1.8c-u00 Standard upLaTeX file (size option)
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 28.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 28.
+)
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 615.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count92
+)
+(c:/texlive/texmf-local/tex/latex/listings/listings.sty
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\lst@mode=\count93
+\lst@gtempboxa=\box43
+\lst@token=\toks16
+\lst@length=\count94
+\lst@currlwidth=\dimen121
+\lst@column=\count95
+\lst@pos=\count96
+\lst@lostspace=\dimen122
+\lst@width=\dimen123
+\lst@newlines=\count97
+\lst@lineno=\count98
+\c@lstlisting=\count99
+\lst@maxwidth=\dimen124
+
+(c:/texlive/texmf-local/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2004/10/17 1.3b (Carsten Heinz)
+)
+(c:/texlive/texmf-local/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2004/09/07 1.3 (Carsten Heinz)
+\c@lstnumber=\count100
+\lst@skipnumbers=\count101
+\lst@framebox=\box44
+)
+(c:/texlive/texmf-local/tex/latex/listings/listings.cfg
+File: listings.cfg 2004/09/05 1.3 listings configuration
+))
+Package: listings 2004/10/17 1.3b (Carsten Heinz)
+
+(c:/texlive/texmf-local/tex/latex/jlisting/jlisting.sty
+Package: jlisting 2006/02/20 0.2 (Thor)
+\lst@nextchar=\count102
+\lst@inputfile=\read1
+)
+(c:/texlive/2019/texmf-dist/tex/latex/ascmac/ascmac.sty
+Package: ascmac 2018/03/09 v2.0h ascmac wrapper (community edition) 
+
+(c:/texlive/2019/texmf-dist/tex/latex/ascmac/tascmac.sty
+Package: tascmac 2018/03/09 v2.0h ascmac package (community edition) 
+\@savetbaselineshift=\dimen125
+\@saveybaselineshift=\dimen126
+\scb@x=\box45
+\scscb@x=\box46
+\@bw=\dimen127
+\@nbox=\box47
+\@nbody=\box48
+\@scw=\dimen128
+\ascmac@hoboxa=\box49
+\ascmac@hoboxb=\box50
+\@itemh=\dimen129
+\@iboxpos=\toks17
+\@iboxstr=\box51
+\@bwsp=\box52
+\@@bwsp=\box53
+\@bcal=\count103
+\shaderule=\dimen130
+))
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 105.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
+)
+(c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen133
+\Gm@wd@mp=\dimen134
+\Gm@odd@mp=\dimen135
+\Gm@even@mp=\dimen136
+\Gm@layoutwidth=\dimen137
+\Gm@layoutheight=\dimen138
+\Gm@layouthoffset=\dimen139
+\Gm@layoutvoffset=\dimen140
+\Gm@dimlist=\toks18
+) (./19G463.aux)
+\openout1 = `19G463.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=674.33032pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=8.46753pt
+* \footskip=30.0pt
+* \marginparwidth=106.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 33.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 33.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 33.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 33.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 33.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 33.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 33.
+[1
+
+]
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 35.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 35.
+ [1] (./19G463.aux) ) 
+Here is how much of TeX's memory you used:
+ 2645 strings out of 494183
+ 36110 string characters out of 6175597
+ 108489 words of memory out of 5000000
+ 7002 multiletter control sequences out of 15000+600000
+ 9055 words of font info for 45 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 30i,6n,46p,263b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 19G463.dvi (2 pages, 892 bytes).
