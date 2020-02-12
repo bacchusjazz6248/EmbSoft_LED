@@ -1,40 +1,3 @@
-02:24:07 **** Incremental Build of configuration Debug for project CMSIS_CORE_LPC8xx ****
-make -r all 
-make: Nothing to be done for `all'.
-02:24:08 **** Incremental Build of configuration Debug for project LEDBlink ****
-make -r all 
-Building target: LEDBlink.axf
-Invoking: MCU Linker
-arm-none-eabi-gcc -nostdlib -L"C:\Users\bacch\OneDrive\ESE\05\CMSIS_CORE_LPC8xx\Debug" -Xlinker -Map="LEDBlink.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "LEDBlink_Debug.ld" -o "LEDBlink.axf"  ./src/LEDBlink.o ./src/cr_startup_lpc8xx.o ./src/swm.o   -lCMSIS_CORE_LPC8xx
-Memory region         Used Size  Region Size  %age Used
-         MFlash4:         712 B         4 KB     17.38%
-         RamLoc1:           4 B         1 KB      0.39%
-Finished building target: LEDBlink.axf
- 
-make --no-print-directory post-build
-Performing post-build steps
-arm-none-eabi-size "LEDBlink.axf" ; arm-none-eabi-objcopy -v -O ihex "LEDBlink.axf" "LEDBlink.hex"
-   text	   data	    bss	    dec	    hex	filename
-    712	      0	      4	    716	    2cc	LEDBlink.axf
-copy from `LEDBlink.axf' [elf32-littlearm] to `LEDBlink.hex' [ihex]
- 
-15:15:37 **** Incremental Build of configuration Debug for project CMSIS_CORE_LPC8xx ****
-make -r all 
-make: Nothing to be done for `all'.
-15:15:38 **** Build of configuration Debug for project TrafficLight ****
-make -r all 
-Building file: ../src/TrafficLight.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__USE_CMSIS=CMSIS_CORE_LPC8xx -D__LPC8XX__ -D__REDLIB__ -I"C:\Users\bacch\OneDrive\ESE\05\CMSIS_CORE_LPC8xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/TrafficLight.d" -MT"src/TrafficLight.o" -MT"src/TrafficLight.d" -o "src/TrafficLight.o" "../src/TrafficLight.c"
-../src/TrafficLight.c: In function 'main':
-../src/TrafficLight.c:42:9: error: 'j' undeclared (first use in this function)
-    for (j=0; j<10000; j++) {
-         ^
-../src/TrafficLight.c:42:9: note: each undeclared identifier is reported only once for each function it appears in
-make: *** [src/TrafficLight.o] Error 1
-15:16:50 **** Incremental Build of configuration Debug for project CMSIS_CORE_LPC8xx ****
-make -r all 
-make: Nothing to be done for `all'.
 15:16:51 **** Incremental Build of configuration Debug for project TrafficLight ****
 make -r all 
 Building file: ../src/TrafficLight.c
@@ -67,3 +30,6 @@ arm-none-eabi-size "TrafficLight.axf" ; arm-none-eabi-objcopy -v -O ihex "Traffi
     848	      0	      8	    856	    358	TrafficLight.axf
 copy from `TrafficLight.axf' [elf32-littlearm] to `TrafficLight.hex' [ihex]
  
+
+15:16:52 Build Finished (took 1s.386ms)
+
