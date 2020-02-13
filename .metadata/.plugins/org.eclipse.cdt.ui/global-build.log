@@ -67,3 +67,28 @@ arm-none-eabi-size "TrafficLight.axf" ; arm-none-eabi-objcopy -v -O ihex "Traffi
     848	      0	      8	    856	    358	TrafficLight.axf
 copy from `TrafficLight.axf' [elf32-littlearm] to `TrafficLight.hex' [ihex]
  
+10:13:02 **** Incremental Build of configuration Debug for project CMSIS_CORE_LPC8xx ****
+make -r all 
+make: Nothing to be done for `all'.
+10:13:03 **** Incremental Build of configuration Debug for project TrafficLight ****
+make -r all 
+Building file: ../src/TrafficLight.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__USE_CMSIS=CMSIS_CORE_LPC8xx -D__LPC8XX__ -D__REDLIB__ -I"C:\Users\bacch\OneDrive\ESE\05\CMSIS_CORE_LPC8xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/TrafficLight.d" -MT"src/TrafficLight.o" -MT"src/TrafficLight.d" -o "src/TrafficLight.o" "../src/TrafficLight.c"
+Finished building: ../src/TrafficLight.c
+ 
+Building target: TrafficLight.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\bacch\OneDrive\ESE\05\CMSIS_CORE_LPC8xx\Debug" -Xlinker -Map="TrafficLight.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "TrafficLight_Debug.ld" -o "TrafficLight.axf"  ./src/TrafficLight.o ./src/cr_startup_lpc8xx.o ./src/swm.o   -lCMSIS_CORE_LPC8xx
+Memory region         Used Size  Region Size  %age Used
+         MFlash4:         848 B         4 KB     20.70%
+         RamLoc1:           8 B         1 KB      0.78%
+Finished building target: TrafficLight.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "TrafficLight.axf" ; arm-none-eabi-objcopy -v -O ihex "TrafficLight.axf" "TrafficLight.hex"
+   text	   data	    bss	    dec	    hex	filename
+    848	      0	      8	    856	    358	TrafficLight.axf
+copy from `TrafficLight.axf' [elf32-littlearm] to `TrafficLight.hex' [ihex]
+ 

@@ -24,7 +24,7 @@ int main(void) {
 	LPC_GPIO_PORT->DIR0 |= (1<<2);
 
 	// PIO0_4: output
-	LPC_GPIO_PORT->DIR0 |= (1<<3);
+	LPC_GPIO_PORT->DIR0 |= (1<<4);
 
 	// Force the counter to be placed into memory
 	volatile static int i = 0 ;
@@ -36,18 +36,17 @@ int main(void) {
 		LPC_GPIO_PORT->NOT0 = 1<<2;
 
 		// Wait
-		for (i=0; i<100000; i++);
+		for (i=0; i<1000000; i++);
 
 		// Blue_Flash
 		for (i=0; i<10; i++) {
-			for (j=0; j<10000; j++) {
-				LPC_GPIO_PORT->NOT0 = 1<<2;
-			}
+			for (j=0; j<100000; j++);
+			LPC_GPIO_PORT->NOT0 = 1<<2;
 		}
 
 		// Red_TurnOn
-		LPC_GPIO_PORT->NOT0 = 1<<3;
-		for (i=0; i<100000; i++);
+		LPC_GPIO_PORT->NOT0 = 1<<4;
+		for (i=0; i<1000000; i++);
 	}
 	return 0 ;
 }

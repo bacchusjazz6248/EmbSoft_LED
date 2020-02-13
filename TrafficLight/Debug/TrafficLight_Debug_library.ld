@@ -5,7 +5,7 @@
  * Generated linker script file for LPC810
  * Created from library.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * LPCXpresso v8.2.2 [Build 650] [2016-09-09]  on 2020/02/12 15:16:51
+ * LPCXpresso v8.2.2 [Build 650] [2016-09-09]  on 2020/02/13 10:13:03
  */
 
 GROUP (

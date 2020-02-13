@@ -1,19 +1,9 @@
-15:16:51 **** Incremental Build of configuration Debug for project TrafficLight ****
+10:13:03 **** Incremental Build of configuration Debug for project TrafficLight ****
 make -r all 
 Building file: ../src/TrafficLight.c
 Invoking: MCU C Compiler
 arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__USE_CMSIS=CMSIS_CORE_LPC8xx -D__LPC8XX__ -D__REDLIB__ -I"C:\Users\bacch\OneDrive\ESE\05\CMSIS_CORE_LPC8xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/TrafficLight.d" -MT"src/TrafficLight.o" -MT"src/TrafficLight.d" -o "src/TrafficLight.o" "../src/TrafficLight.c"
 Finished building: ../src/TrafficLight.c
- 
-Building file: ../src/cr_startup_lpc8xx.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__USE_CMSIS=CMSIS_CORE_LPC8xx -D__LPC8XX__ -D__REDLIB__ -I"C:\Users\bacch\OneDrive\ESE\05\CMSIS_CORE_LPC8xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc8xx.d" -MT"src/cr_startup_lpc8xx.o" -MT"src/cr_startup_lpc8xx.d" -o "src/cr_startup_lpc8xx.o" "../src/cr_startup_lpc8xx.c"
-Finished building: ../src/cr_startup_lpc8xx.c
- 
-Building file: ../src/swm.c
-Invoking: MCU C Compiler
-arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__USE_CMSIS=CMSIS_CORE_LPC8xx -D__LPC8XX__ -D__REDLIB__ -I"C:\Users\bacch\OneDrive\ESE\05\CMSIS_CORE_LPC8xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/swm.d" -MT"src/swm.o" -MT"src/swm.d" -o "src/swm.o" "../src/swm.c"
-Finished building: ../src/swm.c
  
 Building target: TrafficLight.axf
 Invoking: MCU Linker
@@ -31,5 +21,5 @@ arm-none-eabi-size "TrafficLight.axf" ; arm-none-eabi-objcopy -v -O ihex "Traffi
 copy from `TrafficLight.axf' [elf32-littlearm] to `TrafficLight.hex' [ihex]
  
 
-15:16:52 Build Finished (took 1s.386ms)
+10:13:04 Build Finished (took 794ms)
 
